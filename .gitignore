@@ -1,5 +1,6 @@
 #gcc binary
 a.out
 
-#Emacs tilde files
+#Emacs files
 *~
+\#*\#
