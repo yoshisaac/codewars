@@ -15,9 +15,9 @@ char *maskify (char *masked, const char *string) {
 
 int main(void) {
   char* masked = malloc(32);
-  const char* string = "312";
+  const char* string = "3123123123";
 
   maskify(masked, string);
   
-  printf("%s", masked);
+  printf("%s\n", masked);
 }
